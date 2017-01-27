@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BBC Clone</title>
+
+    {% include 'html_dependencies.jinja2' %}
+
+</head>
+<body>
+
+    <div id="topbar">
+
+        <img id="logo" src="static/img/logo.png">
+
+        <div id="signin-div" class="topbar-section">
+            <img src="static/img/signinimage.png">
+            <span>Sign in</span>
+        </div>
+
+        <div id="harp-div" class="topbar-section">
+            <img id="harp-image" src="static/img/harpimage.png">
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Menu A
+        </div>
+        <div class="topbar-section topbar-menu">
+            Menu B
+        </div>
+        <div class="topbar-section topbar-menu">
+            Menu C
+        </div>
+        <div class="topbar-section topbar-menu">
+            Menu D
+        </div>
+        <div class="topbar-section topbar-menu">
+            More
+            <img id="more-arrow" src="static/img/downarrowimage.png">
+        </div>
+
+
+        <div class="topbar-section">
+            <input id="search-box" type="text" value="Search">
+            <input type="image" id="search-image" src="static/img/searchimage.png">
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <!-- Outer div that covers the whole width of a webpage-->
+    <div id="menu-bar-container">
+        <div id="menu-bar">
+            <h1>NEWS</h1>
+            <div id="local-news">
+                <a href="#">Find local news</a>
+                <img src="static/img/pointer.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="menu-bar-2-container">
+        <div id="menu-bar-2">
+            <a href="">Home</a>
+            <a href="">Sub Menu 1</a>
+            <a href="">Sub Menu 2</a>
+            <a href="">Sub Menu 3</a>
+            <a href="">Sub Menu 4</a>
+            <a href="" class="no-border">Sub Menu 5</a>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+
+<!-- pull the content from home.html -->
+{% block content %}
+
+{% endblock %}
+</body>
+</html>
