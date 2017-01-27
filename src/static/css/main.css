@@ -1,0 +1,287 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#topbar {
+    width:1000px;
+    margin:0 auto;
+    /*background-color:#FF0000;*/
+    height: 40 px;
+}
+
+#logo {
+    margin-top: 3px;
+    width:60px;
+    float:left;
+    margin-right: 1px;
+}
+
+.topbar-section {
+    float:left;
+    border-left: 1px #CCCCCC solid;
+    height:32px;
+}
+
+#signin-div img {
+    width:15px;
+    margin:8px;
+    float:left;
+}
+
+#signin-div span {
+    font-weight: bold;
+    font-size:90%;
+    position:relative;
+    top:5px;
+    padding-right:30px;
+}
+
+#harp-image {
+    width:15px;
+    margin:8px 8px 9px 8px;
+    float:left;
+}
+
+#harp-div {
+    float:left;
+}
+
+.topbar-menu {
+    font-weight: bold;
+    font-size:90%;
+    padding:8px 12px;
+    height:32px;
+}
+
+#more-arrow {
+    width:10px;
+    height:8px;
+    margin-left:15px;
+}
+
+#search-box {
+    background-color: #E4E4E4;
+    border:none;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0 5px 5px;
+    float:left;
+}
+
+#search-image {
+    height:23px;
+    margin-top:5px;
+}
+/* to reset the floating properties of elements*/
+.clear {
+    clear:both;
+}
+
+#menu-bar-container {
+
+    border-top: 1px #CCCCCC solid;
+    background-color: #BB1919;
+    width:100%;
+    height:70px;
+}
+
+#menu-bar {
+    width:1000px;
+    margin:0 auto;
+}
+
+h1 {
+    padding:15px 0 0 10px;
+    margin: 0;
+    color: white;
+    font-size:40px;
+    font-weight:normal;
+    float:left;
+}
+
+#local-news {
+    border: 1px #BB4545 solid;
+    float:left;
+    width:200px;
+    padding: 0 5px 10px 10px;
+    margin: 5px 10px 0 425px;
+}
+
+#local-news a {
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    position:relative;
+    top:10px;
+}
+
+#local-news a:hover {
+    text-decoration:underline;
+}
+
+#local-news img {
+    height:35px;
+    margin-top:15px;
+}
+
+#menu-bar-2-container {
+    background-color: #A91717;
+    width: 100%;
+}
+
+#menu-bar-2{
+    width:1000px;
+    margin:0 auto;
+    height:30px;
+}
+
+#menu-bar-2 a {
+    color: white;
+    text-decoration:none;
+    top:5px;
+    padding:0 8px;
+    border-right:1px #BB4545 solid;
+    font-size:15px;
+    position:relative;
+}
+
+#menu-bar-2 a:hover {
+    text-decoration:underline;
+}
+
+.no-border {
+    border:none !important;
+}
+
+#page-container {
+    width:1000px;
+    margin:0 auto;
+}
+
+h2 {
+    font-size:20px;
+    font-weight:normal;
+    padding: 5px 8px 5px 5px;
+    border-bottom:2px solid #A91717;
+    /*width:105px;*/
+    display: table-cell;
+}
+
+h2::after {
+    content: "";
+    display: table-cell;
+    width: 100%;
+}
+
+h3 a {
+    color:black;
+    font-size:25px;
+    font-weight:bold;
+    margin:10px 0 0 5px;
+    text-decoration:none;
+}
+
+h3 a:hover {
+    color:#1167A8;
+    text-decoration:none;
+}
+
+#main-article {
+}
+
+#article-container {
+    width:560px;
+    float:left;
+    border-right: 1px solid #cccccc;
+    padding-right: 5px;
+}
+
+#article-summary {
+    color: #5A5A5A;
+    width: 220px;
+    margin: 0 0 0 5px;
+    float:left;
+}
+
+.clock {
+    height:15px;
+    margin: 2px 5px 0 0;
+    float:left;
+}
+
+.date {
+    padding: 0 5px 0 0;
+    color: #5A5A5A;
+}
+
+.article-link{
+    text-decoration:none;
+    padding: 0 0 0 5px;
+    color: black;
+}
+
+.article-link:hover{
+    text-decoration:none;
+}
+
+.topic-link {
+    text-decoration:none;
+    color: #A91717;
+    padding: 0 0 0 5px;
+    border-left:1px #CCCCCC solid;
+}
+
+.topic-link:hover {
+    text-decoration:none;
+    color: #1167A8;
+}
+
+#main-article-image {
+    width:300px;
+    margin-left: 20px;
+    float:left;
+}
+
+#article-hr {
+    border-top:1px solid #A91717;
+    width:50px;
+    margin: 0 0 5px 0;
+}
+
+#watch-listen {
+    margin-left:5px;
+    width:260px;
+    float:left;
+}
+
+h4 {
+    font-weight:normal;
+    font-size:20px;
+}
+
+.article-side-image {
+    float:left;
+    width:100px;
+}
+
+.watch-listen-link {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.watch-listen-link:hover{
+    text-decoration:none;
+    color:#1167A8;
+}
+
+.side-article {
+    float:right:
+    width:200px;
+    position:relative;
+    left:10px;
+}
