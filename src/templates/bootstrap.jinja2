@@ -4,9 +4,16 @@
 {% block content %}
 
     <div class="jumbotron">
-        <h1>BBC Clone</h1>
-        <br><br><br><br><br><br><br>
-        <p>We are cloning BBC website.</p>
+        <h1>Jumbotron</h1>
+        <p>Let's make responsive webpage.</p>
     </div>
+
+    <div id="game-container">
+        {% for i in range(10) %}
+            <p>{{ sample[i] }}</p>
+            <img class="picture" src="{{ sample[i] }}">
+        {% endfor %}
+    </div>
+
 
 {% endblock %}
