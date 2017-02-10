@@ -285,3 +285,22 @@ h4 {
     position:relative;
     left:10px;
 }
+
+.jumbotron {
+    width:1000px;
+    margin:0 auto;
+}
+
+#game-container {
+    width:750px;
+    height:600px;
+    margin:0 auto;
+    background-color: #EEEEEE;
+}
+
+.picture {
+    width:150px;
+    height:150px;
+    float:left;
+}
+
